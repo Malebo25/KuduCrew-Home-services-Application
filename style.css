@@ -1,0 +1,162 @@
+body {
+    padding-top: 18px;
+}
+.hero{
+    background: linear-gradient(to bottom, #007749, black);
+    color: white;
+}
+.hero h1 {
+  color: white !important;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.hero p {
+  color: white;
+}
+.icon{
+    margin-right: 15px;
+}
+.head{
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 70px;
+}
+
+.btn-yellow {
+  background-color: #ffc107; 
+  color: #212529;
+  border: 1px solid #ffc107; 
+  border-radius: 0.5rem; 
+  padding: 1rem 2rem; 
+}
+.btn-yellow:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.btn-white {
+  background-color: #ffffff; /* White background */
+  color: #212529; /* Dark text color */
+  border: 1px solid #ffffff; /* White border */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 1rem 2rem; /* Large padding for size */
+}
+.btn-white:hover{
+    background-color:#ffc107;
+    color: black;
+}
+.section-title {
+    color: #007749;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 3rem;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: #e4c600;
+    border-radius: 2px;
+}
+
+#contact{
+    background-color: black;
+    color: #ffffff;
+}
+
+.crewMember{
+     background-color:  #007749;
+     padding: 20px;
+     color: #ffffff;
+    
+}
+
+.crewMember h2{
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 70px;
+     color: white !important;
+}
+.crewMember p{
+    color: white !important;
+}
+
+.crewMember .btn {
+      background-color: #ffc107; 
+  color: #212529;
+  border: 1px solid #ffc107; 
+  border-radius: 0.5rem; 
+  padding: 1rem 2rem; 
+}
+.crewMember .btn:hover {
+     background-color: #ffffff;
+    color: black;
+}
+
+
+/* ==================
+   service section
+   ================== */
+.back-btn {
+    background-color: #b52028;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+.back-btn:hover {
+    background-color: #a01a20; 
+    color: white;
+}
+
+.provider-card {
+    background-color: white;
+    border-left: 5px solid #007749; /* The green stripe on the left */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    height: 100%; /* Ensures cards have equal height in a row */
+    display: flex;
+    flex-direction: column;
+}
+
+.provider-card h5 {
+    color: #1a1a1a; /* Ensure the heading is dark and readable */
+    font-weight: 700;
+}
+
+.provider-card .fas {
+    color: #007749; /* Style the map-marker icon */
+    margin-right: 8px;
+}
+
+/* ==================
+   Call Now Button
+   ================== */
+.provider-contact-btn {
+    background-color: #e4c600;
+    color: #1a1a1a;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 8px 20px;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Makes the button fill the card width */
+}
+
+.provider-contact-btn:hover {
+    background-color: #ffde54; /* A slightly lighter yellow on hover */
+}
+
